@@ -31,7 +31,7 @@
         envy = nixpkgs.lib.nixosSystem {
           system = "x86_64-linux";
           modules = [
-            ./nixos/configuration.nix
+            ./envy/configuration.nix
             home-manager.nixosModules.home-manager
             {
               home-manager = {
@@ -53,8 +53,8 @@
         air = nix-darwin.lib.darwinSystem {
           system = "aarch64-darwin";
           modules = [
-            ./darwin/configuration.nix
-            ./darwin/system.nix
+            ./air/configuration.nix
+            ./air/system.nix
             home-manager.darwinModules.home-manager
             {
 

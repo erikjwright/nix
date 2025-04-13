@@ -69,6 +69,7 @@
       "notion"
       "ollama"
       "podman-desktop"
+      "qalculate-gtk"
       "raycast"
       "yubico-authenticator"
       "zen-browser"
